@@ -1,0 +1,30 @@
+{
+  "name": "yuque-source-sync",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "node ./bin/yuqueSource -t 1oXtvvsVYaidMh7STzXH7uA3GJccr9ebpTn5xgRY -g xbfrontend -r meeting",
+    "sync": "yuque2book -t 1oXtvvsVYaidMh7STzXH7uA3GJccr9ebpTn5xgRY https://www.yuque.com/xbfrontend/meeting"
+  },
+  "bin": {
+    "yuqueSync": "./bin/yuqueSync.js"
+  },
+  "author": "zxy",
+  "license": "ISC",
+  "dependencies": {
+    "@yuque/sdk": "^1.1.1",
+    "chalk": "^2.4.2",
+    "fs-extra": "^8.0.1",
+    "rimraf": "^2.6.3",
+    "util.promisify": "^1.0.0",
+    "winston": "^3.2.1",
+    "yargs-parser": "^13.1.1",
+    "yuque2book": "^0.1.2"
+  },
+  "devDependencies": {
+    "cross-env": "5.1.4",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "prettier-eslint": "8.8.2"
+  }
+}

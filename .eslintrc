@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb-base/legacy",
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": false
+  },
+  "globals": {},
+  "rules": {
+    "linebreak-style": [0, "unix"],
+    "global-require": [0],
+    "no-console": [0]
+  }
+}
