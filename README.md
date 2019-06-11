@@ -1,9 +1,15 @@
-# yuqueSync
+# yuque-source-sync
 
 synchronize **yuqyue** source file to local, default file type is **markdown**.
 
 ```bash
 $ yuqueSync -t <token> -g <group> -r <repository> -d <dist>
+```
+
+## getting started
+
+```bash
+$ npm i yuque-source-sync
 ```
 
 ## options
