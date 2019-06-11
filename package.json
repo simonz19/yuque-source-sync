@@ -2,9 +2,7 @@
   "name": "yuque-source-sync",
   "version": "1.0.0",
   "description": "synchronize yuque source file to local",
-  "scripts": {
-    "test": "node ./bin/yuqueSource -t 1oXtvvsVYaidMh7STzXH7uA3GJccr9ebpTn5xgRY -g xbfrontend -r meeting"
-  },
+  "scripts": {},
   "bin": {
     "yuqueSync": "./bin/yuqueSync.js"
   },
@@ -29,5 +27,14 @@
     "eslint-config-airbnb-base": "13.1.0",
     "mocha": "^6.1.4",
     "prettier-eslint": "8.8.2"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonz19/yuque-source-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simonz19/yuque-source-sync/issues"
+  },
+  "homepage": "https://github.com/simonz19/yuque-source-sync#readme",
 }

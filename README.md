@@ -6,19 +6,21 @@ synchronize **yuqyue** source file to local, default file type is **markdown**.
 $ yuqueSync -t <token> -g <group> -r <repository> -d <dist>
 ```
 
-## -t
+## options
+
+### t
 
 the `access token` you can find here on https://www.yuque.com/settings/tokens is required
 
-## -g
+### g
 
 the `group` arg is required
 
-## -r
+### r
 
-the `repository` under the specified `group`
+the `repository` in the specified `group`
 
-## -d
+### d
 
 the target path you wanna put yuque source file in, it should be relative to `cwd`
 
