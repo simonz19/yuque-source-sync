@@ -1,6 +1,6 @@
 {
   "name": "yuque-source-sync",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "synchronize yuque source file to local",
   "scripts": {},
   "bin": {
@@ -36,5 +36,5 @@
   "bugs": {
     "url": "https://github.com/simonz19/yuque-source-sync/issues"
   },
-  "homepage": "https://github.com/simonz19/yuque-source-sync#readme",
+  "homepage": "https://github.com/simonz19/yuque-source-sync#readme"
 }
